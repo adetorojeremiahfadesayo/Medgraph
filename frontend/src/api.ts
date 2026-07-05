@@ -13,7 +13,9 @@ import type {
   ProposedActionPayload,
 } from "./types";
 
-export const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000").replace(/\/$/, "");
+export const API_BASE_URL = (
+  import.meta.env.VITE_API_BASE_URL || "https://medgraph-production.up.railway.app"
+).replace(/\/$/, "");
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(`${API_BASE_URL}${path}`, {
