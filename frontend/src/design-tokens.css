@@ -1,0 +1,44 @@
+/* Hallmark - macrostructure: progressive clinical journey - tone: glass-clay operations - anchor hue: cyan */
+:root {
+  --color-ink: #111318;
+  --color-muted: #68707d;
+  --color-paper: #ebe6dc;
+  --color-panel: rgba(255, 255, 255, 0.72);
+  --color-panel-solid: #fffdf8;
+  --color-panel-soft: rgba(248, 244, 235, 0.78);
+  --color-line: #d9dee7;
+  --color-warm-line: rgba(119, 101, 81, 0.18);
+  --color-line-dark: #263544;
+  --color-command: #081421;
+  --color-command-2: #0d2030;
+  --color-command-3: #142a3c;
+  --color-cyan: #20c7f4;
+  --color-cyan-soft: #dff8ff;
+  --color-clay: #d78a67;
+  --color-clay-soft: #f3ded1;
+  --color-moss: #6a7a5b;
+  --color-green: #32c77f;
+  --color-amber: #f2b84b;
+  --color-violet: #8b7dff;
+  --color-red: #d35a4f;
+  --color-red-soft: #fff0ee;
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 140ms;
+  --dur-base: 220ms;
+  --dur-slow: 680ms;
+  --shadow-panel: 0 18px 48px rgba(82, 62, 41, 0.12);
+  --shadow-glass: 0 24px 70px rgba(60, 47, 35, 0.16);
+}
